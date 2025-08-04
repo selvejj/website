@@ -1,0 +1,5 @@
+# We only sometimes use IDEA for this, but don't care about any IDEA settings.
+.idea
+*.swp
+*.swo
+*.iml
