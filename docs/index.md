@@ -10,9 +10,10 @@ Selvejj treats `jj` repositories as first-class. You do not need co-located Git 
 
 ## Getting access
 
-### Add a custom repository to participate in the Early Access Program
+The plugin is [available on the JetBrains Marketplace](https://plugins.jetbrains.com/plugin/28081-selvejj).
 
-TODO: Link to plugin once it is no longer hidden.
+The best way to install it is to use the IDE's built-in plugin manager and search for Selvejj.
+Go to Settings > Plugins > Marketplace and search for Selvejj.
 
 ## Current features (v0.2.0)
 
