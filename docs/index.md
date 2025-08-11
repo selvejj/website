@@ -8,7 +8,7 @@ Selvejj treats `jj` repositories as first-class. You do not need co-located Git 
 
 **Selvejj is currently in pre-release and far from feature complete.**
 
-## Getting access
+## Download
 
 The plugin is [available on the JetBrains Marketplace](https://plugins.jetbrains.com/plugin/28081-selvejj).
 
