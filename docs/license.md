@@ -5,7 +5,7 @@
 The Selvejj JetBrains Plugin is licensed under the GNU General Public License v3.0.
 
 To request a copy of the source code, please email [source@selvejj.com](mailto:source@selvejj.com). If you would like a specific version of the plugin, make sure to mention it.
-The code is intentionally not published online, as I cannot trust web crawlers powering LLMs to respect the terms of the license.
+The code is not published online, for a variety of reasons, including LLMs refusing/being unable to respect the terms of the license.
 
 The full text of the license follows:
 
