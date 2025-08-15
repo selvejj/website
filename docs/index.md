@@ -1,7 +1,7 @@
 # Selvejj
 
 Selvejj brings the powerful features of the [Jujutsu Version Control System](https://jj-vcs.github.io/jj/latest/) to
-JetBrains IDEs (Intellij, PyCharm and
+JetBrains IDEs (IntelliJ, PyCharm, and
 others). It hooks into native VCS integration so you can keep using the same interface as with Git.
 
 Selvejj treats `jj` repositories as first-class. You do not need co-located Git repositories.
@@ -25,7 +25,7 @@ Go to Settings > Plugins > Marketplace and search for Selvejj.
 * Support advanced commit features
   * Amend
   * Hunk-level selection
-* Editing changes - reword, abandon, split and so on.
+* Editing changes - reword, abandon, split, and so on
 * Bookmark support
 * Repository creation/import
 * Multiple working copies

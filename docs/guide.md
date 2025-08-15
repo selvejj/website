@@ -1,6 +1,6 @@
 # Usage Guide
 
-This guide uses the term IntelliJ to refer to the IDE. Selvejj works with most JetBrains IDEs, like PyCharm, CLion and
+This guide uses the term IntelliJ to refer to the IDE. Selvejj works with most JetBrains IDEs, like PyCharm, CLion, and
 others. The same instructions will apply to them all.
 
 Screenshots on this page are from IntelliJ IDEA, with the jj repo.
@@ -15,7 +15,7 @@ Given the very early stage of the project, only a small set of features are supp
 
 ## Limitations
 
-* Only single repository projects are supported. i.e. if you have a project with multiple subdirectories, each with a jj
+* Only single repository projects are supported. If you have a project with multiple subdirectories, each with a jj
   repo, the behavior has not been tested.
 * Co-located repositories are not supported.
 * The `jj` binary MUST be in your PATH.
@@ -24,14 +24,12 @@ Given the very early stage of the project, only a small set of features are supp
 ## Opening a project
 
 Selvejj currently has some limitations. Creating a new project with jj as the VCS is not supported. You must first
-create/import the project into Intellij.
+create/import the project into IntelliJ.
 
-* `File -> New -> Project from Existing Sources` - use this if you already have a project using jj, and it is not already opened in Intellij. You can also use this to clone a git repository using jj.
+* `File -> New -> Project from Existing Sources` - use this if you already have a project using jj, and it is not already opened in IntelliJ. You can also use this to clone a Git repository using jj.
 * `File -> New -> Project` - use this if you want to create a brand-new project.
 
-If the project is already
-
-Once you have imported the project, Intellij should automatically detect the repo and show the VCS as Jujutsu.
+Once you have imported the project, IntelliJ should automatically detect the repo and show the VCS as Jujutsu.
 
 ![Project identified as using Jujutsu](screenshots/vcs-identifier-tooltip.png)
 
@@ -55,9 +53,8 @@ Selvejj identifies itself as a DVCS and so will use the non-modal Commit tool wi
 
 ## Refreshing IDE state
 
-Selvejj monitors the `.jj` directory for changes and will refresh the commit log if you make changes via the CLI/other
-tools.
-The commit window may not always update. Use the refresh button to force a refresh.
+Selvejj monitors the `.jj` directory for changes and will refresh the commit log if you make changes via the CLI or other
+tools. The commit window may not always update. Use the refresh button to force a refresh.
 
 Note that, similar to the IDE default of treating `.git` and other VCS directories as ignored folders, Selvejj will add
 `.jj` to the list of ignored folders.
