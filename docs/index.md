@@ -15,7 +15,7 @@ The plugin is [available on the JetBrains Marketplace](https://plugins.jetbrains
 The best way to install it is to use the IDE's built-in plugin manager and search for Selvejj.
 Go to Settings > Plugins > Marketplace and search for Selvejj.
 
-## Current features (v0.2.1)
+## Current features (v0.2.2)
 
 * View jj log in the VCS log window
 * Create new jj commits
