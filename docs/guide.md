@@ -45,6 +45,12 @@ Clicking on a commit will show the details and changed files. Double-clicking on
 
 ![Viewing changes from a specific commit](screenshots/vcs-log-diff.png)
 
+### Copying Change ID
+
+The default "Copy Revision Number" action will copy the **commit** ID. When using jj, in most cases you are interested in the **change** ID. Use the "Copy Change ID" action in the log view to copy that.
+
+![Copying a change ID](screenshots/vcs-copy-change.png)
+
 ## Creating commits
 
 Selvejj identifies itself as a DVCS and so will use the non-modal Commit tool window by default.
