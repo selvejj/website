@@ -57,6 +57,9 @@ Selvejj identifies itself as a DVCS and so will use the non-modal Commit tool wi
 
 ![Committing changes](screenshots/vcs-commit.png)
 
+You can commit an entire file by selecting its checkbox. To commit selected hunks, open the diff view for the file 
+and select the hunks/lines you want to commit.
+
 ## Refreshing IDE state
 
 Selvejj monitors the `.jj` directory for changes and will refresh the commit log if you make changes via the CLI or other
