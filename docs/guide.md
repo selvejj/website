@@ -3,7 +3,7 @@
 This guide uses the term IntelliJ to refer to the IDE. Selvejj works with most JetBrains IDEs, like PyCharm, CLion, and
 others. The same instructions will apply to them all.
 
-Screenshots on this page are from IntelliJ IDEA, with the jj repo.
+Screenshots on this page are from IntelliJ IDEA.
 
 ## Supported features
 
@@ -59,6 +59,16 @@ Selvejj identifies itself as a DVCS and so will use the non-modal Commit tool wi
 
 You can commit an entire file by selecting its checkbox. To commit selected hunks, open the diff view for the file 
 and select the hunks/lines you want to commit.
+
+## Annotate a file
+
+You can annotate (blame) a file by right-clicking in the gutter (on the line numbers) and selecting "Annotate".
+
+![Annotate view](screenshots/vcs-annotate-view.png)
+
+The view shows the author, date and Change ID by default. The "Revision number" (commit ID) can be shown via the View context menu.
+
+The extension also adds a "Copy Change ID" action to the context menu. This should be preferred over "Copy Revision Number". Unfortunately, there is no way to move this action higher up in the context menu.
 
 ## Refreshing IDE state
 
