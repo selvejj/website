@@ -70,6 +70,9 @@ The view shows the author, date and Change ID by default. The "Revision number" 
 
 The extension also adds a "Copy Change ID" action to the context menu. This should be preferred over "Copy Revision Number". Unfortunately, there is no way to move this action higher up in the context menu.
 
+!!! info
+    The Annotate view cannot follow a file across renames.
+
 ## Refreshing IDE state
 
 Selvejj monitors the `.jj` directory for changes and will refresh the commit log if you make changes via the CLI or other
