@@ -20,8 +20,7 @@ Go to Settings > Plugins > Marketplace and search for Selvejj.
 * View the jj log in the VCS log window
   * Branches are grouped by remote in the Branch filter.
   * Branch refs use the IDE's VCS colors for easier navigation.
-* Create new jj commits
-  * Includes support for committing partial hunks
+* Create new jj commits from entire files or selected hunks
 * Annotate (blame) files
 
 See the [changelog](changelog.md) for the complete release history.

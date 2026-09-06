@@ -9,7 +9,7 @@ Screenshots on this page are from IntelliJ IDEA.
 
 Given the very early stage of the project, only a small set of features are supported.
 
-1. Ability to create new commits at the current parent of the working copy.
+1. Ability to create new commits at the current parent of the working copy, including commits containing selected hunks.
 2. Ability to view the commit log and diffs from the commit log.
 3. View diffs of the current working copy.
 
@@ -19,7 +19,7 @@ Given the very early stage of the project, only a small set of features are supp
   repo, the behavior has not been tested.
 * Co-located repositories are not supported.
 * The `jj` binary MUST be in your PATH.
-* Individual files can be committed/not committed, but hunks are not supported yet.
+* Individual files and selected hunks can be committed or left uncommitted.
 
 ## Settings dialog
 
@@ -63,8 +63,7 @@ Selvejj identifies itself as a DVCS and so will use the non-modal Commit tool wi
 
 ![Committing changes](screenshots/vcs-commit.png)
 
-You can commit an entire file by selecting its checkbox. To commit selected hunks, open the diff view for the file 
-and select the hunks/lines you want to commit.
+You can commit an entire file by selecting its checkbox. Committing hunks is also supported: open the diff view for the file and select the hunks/lines you want to commit.
 
 ## Annotate a file
 
