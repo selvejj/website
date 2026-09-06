@@ -15,12 +15,16 @@ The plugin is [available on the JetBrains Marketplace](https://plugins.jetbrains
 The best way to install it is to use the IDE's built-in plugin manager and search for Selvejj.
 Go to Settings > Plugins > Marketplace and search for Selvejj.
 
-## Current features (v0.4.0)
+## Current features (v0.5.1)
 
-* View jj log in the VCS log window
+* View the jj log in the VCS log window
+  * Branches are grouped by remote in the Branch filter.
+  * Branch refs use the IDE's VCS colors for easier navigation.
 * Create new jj commits
   * Includes support for committing partial hunks
 * Annotate (blame) files
+
+See the [changelog](changelog.md) for the complete release history.
 
 ## Planned features
 

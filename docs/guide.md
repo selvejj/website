@@ -21,6 +21,12 @@ Given the very early stage of the project, only a small set of features are supp
 * The `jj` binary MUST be in your PATH.
 * Individual files can be committed/not committed, but hunks are not supported yet.
 
+## Settings dialog
+
+Open the IDE settings dialog and select **Selvejj**. Selvejj's settings are available under `Settings -> Selvejj` (on macOS, `IntelliJ IDEA -> Settings -> Selvejj`).
+
+The **Path to jj** field selects the `jj` executable used for Jujutsu operations. Leave it empty to use `jj` from your `PATH`, or enter the full path to a specific executable. A file chooser is available beside the field. Click **Apply** or **OK** to save changes.
+
 ## Opening a project
 
 Selvejj currently has some limitations. Creating a new project with jj as the VCS is not supported. You must first
