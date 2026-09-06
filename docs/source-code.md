@@ -3,5 +3,5 @@
 Selvejj is not accepting external code contributions. However, since it is published under the GNU GPLv3, source code for each release can be downloaded here.
 
 * [v0.5.1](./releases/selvejj-0.5.1.zip) (2026-09-06)
-* [v0.4.0](./releases/selvejj-0.4.0.zip) (2025-12-06)
 * [v0.4.1](./releases/selvejj-0.4.1.zip) (2026-01-18)
+* [v0.4.0](./releases/selvejj-0.4.0.zip) (2025-12-06)
